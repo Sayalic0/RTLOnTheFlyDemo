@@ -8,4 +8,4 @@ Preview:
 
 Please notice the `TabBar` and `NavigationBar`, enjoy!
 
-If you want to change the language simutanousely, you may refer to [SMSLocalization](https://github.com/anishparajuli555/SMSLocalization).
+If you want to change the language simultaneously, you may refer to [SMSLocalization](https://github.com/anishparajuli555/SMSLocalization).
