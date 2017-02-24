@@ -2,7 +2,6 @@
 //  ViewController.swift
 //  RTLOnTheFly
 //
-//  Created by 正翔  沈 on 24/02/2017.
 //  Copyright © 2017 Sayalic. All rights reserved.
 //
 
