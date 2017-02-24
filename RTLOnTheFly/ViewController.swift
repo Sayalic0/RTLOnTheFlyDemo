@@ -19,7 +19,21 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func setRTL(_ sender: UIButton) {
+        UIView.appearance().semanticContentAttribute = .forceRightToLeft
+        UINavigationBar.appearance().semanticContentAttribute = .forceRightToLeft
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "root") {
+            UIApplication.shared.keyWindow?.rootViewController = vc
+        }
+    }
 
-
+    @IBAction func setLTR(_ sender: UIButton) {
+        UIView.appearance().semanticContentAttribute = .forceLeftToRight
+        UINavigationBar.appearance().semanticContentAttribute = .forceLeftToRight
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "root") {
+            UIApplication.shared.keyWindow?.rootViewController = vc
+        }
+    }
 }
 
